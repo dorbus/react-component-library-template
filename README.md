@@ -10,3 +10,5 @@ A template for creating react component library using:
 - Linting: eslint
 - Formatting: prettier
 - pre-commit-check: husky & lint-staged
+- CSS Framework - Tailwind
+- Styling: CSS & SCSS
