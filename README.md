@@ -1,4 +1,4 @@
-# React-Typescript-Template
+# React Component Library Template
 
 <div align="center">
 <img src="./img/react-component-library-template.png"/>
