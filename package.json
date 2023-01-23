@@ -1,9 +1,21 @@
 {
-  "author": "Divyanshu Shekhar",
   "name": "react-component-library-template",
   "description": "Template for creating react component library",
   "version": "1.0.0",
   "license": "ISC",
+  "author": "Divyanshu Shekhar <imdshekhar@gmail.com>",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dorbus/react-component-library-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dorbus/react-component-library-template/issues"
+  },
+  "homepage": "https://github.com/dorbus/react-component-library-template#readme",
   "type": "module",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -94,5 +106,9 @@
     "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
       "prettier --write"
     ]
-  }
+  },
+  "keywords": [
+    "react",
+    "component"
+  ]
 }
